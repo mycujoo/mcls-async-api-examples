@@ -1,0 +1,15 @@
+{
+  "name": "mcls-async-api-webhook-example",
+  "version": "1.0.0",
+  "description": "Example interacting with the MCLS Asyncronous API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MyCujoo Live Services",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/secret-manager": "^3.5.0",
+    "got": "^11.8.2"
+  }
+}
