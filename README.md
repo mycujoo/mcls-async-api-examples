@@ -13,6 +13,11 @@ This cloud function sync wordpress posts with the MeileSearch server.
 
 
 ## Testing webhooks
+
+During this example, we will create an integration and a google cloud function that will be called by the integration.
+In it's current form, all this function does is get the title and print it when a stream is modified by you or by the system.
+But of course you could use this to update your database or execute any other action of your choice.
+
 Create the secret holding the required information to talk to the API:
 
 ```sh
@@ -86,9 +91,6 @@ When you update a stream now, you'll see the following in your logs:
 2021-04-09 14:39:18.995 GMT webhook-example-productiongr6updcq3s62 Function execution took 971 ms, finished with status code: 200
 ```
 Now whenever a stream is modified or changed either by you or the system, this function will be called.
-
-In it's current form, all this function does is get the title and print it. But of course you could use this to update your database or execute any
-other action of your choice.
 
 ## Cleanup
 You can easily clean up the function by deleting it:
