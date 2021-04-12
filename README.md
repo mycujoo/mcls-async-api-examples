@@ -1,7 +1,7 @@
 # MCLS Async API Example (Google Cloud)
 --------------------------------
 
-This cloud function sync wordpress posts with the MeileSearch server.
+This example shows you how to use the MCLS Async API .
 
 ## Requirements
 
