@@ -11,6 +11,15 @@ This example shows you how to use the MCLS Async API .
 * npm & NodeJS 14
 * Secret manager API needs to be enabled: https://console.developers.google.com/apis/api/secretmanager.googleapis.com/overview
 
+## Supported resources
+Currently the following resources are supprorted by the MCLS Async API:
+
+* Events (source=SOURCE_EVENT)
+* Streams (source=SOURCE_STREAM)
+
+We currently support the following integrations:
+
+* Webhooks
 
 ## Testing webhooks
 
