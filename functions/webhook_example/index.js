@@ -29,6 +29,12 @@ exports.webhook = async (req, res) => {
             throw new Error('Invalid payload')
         }
 
+        const params = req.query || null
+
+        if (params) {
+            console.log(`[${env}] Got params: ${JSON.stringify(params)}`)
+        }
+
         console.log(`[${env}] Got data: ${JSON.stringify(data)}`)
         const { type, id } = data
 
