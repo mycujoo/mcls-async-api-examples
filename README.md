@@ -94,10 +94,11 @@ Note down the id of the integration, we'll use it later to delete the integratio
 When you update a stream now, you'll see the following in your logs:
 
 ```
-2021-04-09 14:39:18.024 GMT webhook-example-productiongr6updcq3s62 Function execution started
-2021-04-09 14:39:18.764 GMT webhook-example-productiongr6updcq3s62 [production] Got data: {"id":"xxx","type":"stream"}
-2021-04-09 14:39:18.991 GMT webhook-example-productiongr6updcq3s62 Stream test stream for webhooks has been updated!
-2021-04-09 14:39:18.995 GMT webhook-example-productiongr6updcq3s62 Function execution took 971 ms, finished with status code: 200
+14:04:01.072  Function execution started
+14:04:01.209  [production] Got params: {"src":"mcls"}
+14:04:01.209  [production] Got data: {"id":"cknadtb8g000d0185607jhgvk","type":"stream"}
+14:04:01.336  Stream test stream for webhooks has been updated!
+14:04:01.338  Function execution took 267 ms, finished with status code: 200
 ```
 Now whenever a stream is modified or changed either by you or the system, this function will be called.
 
